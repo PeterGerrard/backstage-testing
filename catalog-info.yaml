@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Service
+kind: Component
 metadata:
   name: backstage-testing
   annotations:
     github.com/project-slug: PeterGerrard/backstage-testing
     backstage.io/kubernetes-label-selector: app.kubernetes.io/name=iam
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: peter
