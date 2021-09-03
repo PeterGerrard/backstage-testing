@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iam
+  description: Identity System
+  annotations:
+   backstage.io/kubernetes-label-selector: app.kubernetes.io/name=iam
+spec:
+  owner: platform
