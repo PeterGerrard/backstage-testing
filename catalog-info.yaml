@@ -6,6 +6,6 @@ metadata:
     github.com/project-slug: PeterGerrard/backstage-testing
     backstage.io/kubernetes-label-selector: app.kubernetes.io/name=iam
 spec:
-  type: service
+  type: other
   lifecycle: unknown
   owner: peter
