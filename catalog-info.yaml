@@ -1,9 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: iam
-  description: Identity System
+  name: backstage-testing
   annotations:
-   backstage.io/kubernetes-label-selector: app.kubernetes.io/name=iam
+    github.com/project-slug: PeterGerrard/backstage-testing
 spec:
-  owner: platform
+  type: other
+  lifecycle: unknown
+  owner: peter
