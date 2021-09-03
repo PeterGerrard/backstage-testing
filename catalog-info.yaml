@@ -4,6 +4,7 @@ metadata:
   name: backstage-testing
   annotations:
     github.com/project-slug: PeterGerrard/backstage-testing
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=iam
 spec:
   type: other
   lifecycle: unknown
