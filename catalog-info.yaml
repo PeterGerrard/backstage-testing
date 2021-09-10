@@ -5,6 +5,5 @@ metadata:
   description: A collection of all Backstage example resources
 spec:
   targets:
-    - ./iam/catalog-info.yaml   
-    - ./teams/api.yaml
-    - ./teams/catalog-info.yaml
+    - ./iam/location.yaml
+    - ./teams/location.yaml
