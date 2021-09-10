@@ -9,3 +9,7 @@ spec:
   type: service
   lifecycle: unknown
   owner: peter
+  providesApis:
+    - identity
+    - organizations
+    - invites
