@@ -10,7 +10,7 @@ spec:
   lifecycle: unknown
   owner: peter
   providesApis:
-    - teams
+    - teams-api
   consumesApis:
     - permissions
     - identity
