@@ -6,4 +6,5 @@ metadata:
 spec:
   targets:
     - ./iam/catalog-info.yaml   
+    - ./teams/api.yaml
     - ./teams/catalog-info.yaml
