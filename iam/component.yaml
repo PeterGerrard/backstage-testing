@@ -6,7 +6,7 @@ metadata:
     github.com/project-slug: PeterGerrard/backstage-testing
     backstage.io/kubernetes-label-selector: app.kubernetes.io/name=iam
     snyk.io/org-name: platform-current
-    snyk.io/project: dc59d95b-ce1d-47ed-a489-5b63957d31f1028b26cc-8749-49d4-af7f-58bed6a27efe,
+    snyk.io/project-ids: dc59d95b-ce1d-47ed-a489-5b63957d31f1028b26cc-8749-49d4-af7f-58bed6a27efe,
 spec:
   type: service
   lifecycle: unknown
