@@ -1,0 +1,15 @@
+kind: Component
+metadata:
+  name: teams
+  annotations:
+    github.com/project-slug: PeterGerrard/backstage-testing
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=teams
+spec:
+  type: service
+  lifecycle: unknown
+  owner: peter
+  providesApis:
+    - teams
+  consumesApis:
+    - permissions
+    - identity
